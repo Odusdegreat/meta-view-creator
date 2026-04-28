@@ -1,10 +1,10 @@
-# Meta-Verse - 3D Architectural Visualization Platform
+# Twinblueprint - 3D Architectural Visualization Platform
 
-A modern, high-performance marketing website for Meta-Verse, a leading provider of photorealistic 3D visualization services for developers, architects, and urban planners.
+A modern, high-performance marketing website for Twinblueprint, a leading provider of photorealistic 3D visualization services for developers, architects, and urban planners.
 
 ## 🎯 Overview
 
-Meta-Verse transforms how the world visualizes architectural projects through cutting-edge 3D technology. This website showcases our services, case studies, and expertise in accelerating project approvals and stakeholder communication.
+Twinblueprint transforms how the world visualizes architectural projects through cutting-edge 3D technology. This website showcases our services, case studies, and expertise in accelerating project approvals and stakeholder communication.
 
 ## ✨ Features
 
@@ -262,8 +262,8 @@ This project is proprietary software. All rights reserved.
 ## 📞 Contact & Support
 
 - Email: hello@meta-dology.com
-- Website: https://meta-verse.com
+- Website: https://twinblueprint.com
 
 ---
 
-**Built with ❤️ by the Meta-Verse team**
+**Built with ❤️ by the Twinblueprint team**

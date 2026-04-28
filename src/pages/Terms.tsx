@@ -11,7 +11,7 @@ const sections = [
   {
     title: "Description of Services",
     content:
-      "Meta-dology provides 3D architectural visualization services, including but not limited to: photorealistic rendering, 3D modeling, interactive walkthroughs, and VR-ready content. We reserve the right to modify, suspend, or discontinue any part of our services at any time without prior notice.",
+      "Twinblueprint provides 3D architectural visualization services, including but not limited to: photorealistic rendering, 3D modeling, interactive walkthroughs, and VR-ready content. We reserve the right to modify, suspend, or discontinue any part of our services at any time without prior notice.",
   },
   {
     title: "User Responsibilities",
@@ -41,12 +41,12 @@ const sections = [
   {
     title: "Limitation of Liability",
     content:
-      "To the fullest extent permitted by law, Meta-dology shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of our services. Our total liability shall not exceed the amount you paid for the specific service giving rise to the claim.",
+      "To the fullest extent permitted by law, Twinblueprint shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of our services. Our total liability shall not exceed the amount you paid for the specific service giving rise to the claim.",
   },
   {
     title: "Indemnification",
     content:
-      "You agree to indemnify and hold harmless Meta-dology, its officers, directors, employees, and agents from any claims, damages, losses, or expenses arising from your violation of these terms, your use of our services, or your violation of any rights of a third party.",
+      "You agree to indemnify and hold harmless Twinblueprint, its officers, directors, employees, and agents from any claims, damages, losses, or expenses arising from your violation of these terms, your use of our services, or your violation of any rights of a third party.",
   },
   {
     title: "Termination",
@@ -56,7 +56,7 @@ const sections = [
   {
     title: "Governing Law",
     content:
-      "These terms shall be governed by and construed in accordance with the laws of the jurisdiction in which Meta-dology operates, without regard to its conflict of law provisions. Any disputes arising from these terms shall be resolved through binding arbitration or mediation.",
+      "These terms shall be governed by and construed in accordance with the laws of the jurisdiction in which Twinblueprint operates, without regard to its conflict of law provisions. Any disputes arising from these terms shall be resolved through binding arbitration or mediation.",
   },
   {
     title: "Modifications to Terms",
@@ -87,7 +87,7 @@ const Terms = () => {
                 Terms of <span className="text-gradient">Service</span>
               </h1>
               <p className="text-hero-muted text-lg md:text-xl leading-relaxed">
-                Please read these terms carefully before using our services. They outline the rules and guidelines for using Meta-dology.
+                Please read these terms carefully before using our services. They outline the rules and guidelines for using Twinblueprint.
               </p>
             </motion.div>
           </div>

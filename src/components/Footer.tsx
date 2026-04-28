@@ -38,7 +38,7 @@ const Footer = () => {
           ))}
         </div>
         <div className="mt-12 pt-8 border-t border-hero-muted/10 text-center">
-          <p className="text-hero-muted text-sm">© 2026 Meta-dology. All rights reserved.</p>
+          <p className="text-hero-muted text-sm">© 2026 Twinblueprint. All rights reserved.</p>
         </div>
       </div>
     </footer>
