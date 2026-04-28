@@ -22,7 +22,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-hero/95 backdrop-blur-md border-b border-hero-muted/10">
       <div className="container flex items-center justify-between h-16 md:h-20">
         <Link to="/" className="text-hero-foreground font-heading font-extrabold text-xl md:text-2xl tracking-tight">
-          Meta<span className="text-gradient">-Verse</span>
+          Twin<span className="text-gradient">blueprint</span>
         </Link>
 
         {/* Desktop */}

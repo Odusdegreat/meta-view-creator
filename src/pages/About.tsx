@@ -68,7 +68,7 @@ const About = () => {
               className="max-w-3xl mx-auto text-center"
             >
               <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight text-hero-foreground mb-6">
-                About <span className="text-gradient">Meta-Verse</span>
+                About <span className="text-gradient">Twinblueprint</span>
               </h1>
               <p className="text-hero-muted text-lg md:text-xl leading-relaxed">
                 Transforming how the world visualizes architectural projects through cutting-edge 3D technology and exceptional service.
@@ -161,46 +161,7 @@ const About = () => {
           </div>
         </section>
 
-        {/* Team Section */}
-        <section className="section-padding bg-background">
-          <div className="container">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="text-center max-w-2xl mx-auto mb-16"
-            >
-              <h2 className="text-3xl md:text-4xl text-foreground mb-4">Meet the Team</h2>
-              <p className="text-muted-foreground text-lg">
-                Experienced professionals dedicated to delivering exceptional results.
-              </p>
-            </motion.div>
-
-            <div className="grid md:grid-cols-4 gap-8">
-              {teamMembers.map((member, i) => (
-                <motion.div
-                  key={member.name}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: i * 0.1 }}
-                  className="bg-card rounded-2xl p-6 border border-border text-center hover:border-primary/50 transition-colors"
-                >
-                  <div className="w-24 h-24 bg-gradient-to-br from-primary/30 to-primary/10 rounded-full mx-auto mb-4" />
-                  <h3 className="text-lg font-bold text-foreground mb-1">
-                    {member.name}
-                  </h3>
-                  <p className="text-primary font-semibold text-sm mb-3">
-                    {member.role}
-                  </p>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    {member.bio}
-                  </p>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </section>
+        
 
         {/* Company Stats */}
         <section className="section-padding bg-muted">

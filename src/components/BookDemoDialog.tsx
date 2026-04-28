@@ -106,7 +106,7 @@ const BookDemoDialog = () => {
             <div className="flex items-start gap-2">
               <Checkbox id="consent" checked={form.consent} onCheckedChange={(v) => handleChange("consent", !!v)} className="mt-0.5" />
               <Label htmlFor="consent" className="text-xs text-muted-foreground leading-relaxed cursor-pointer">
-                I'd like to receive emails about Meta-Verse's products, events, and promotions. I can unsubscribe at any time.
+                I'd like to receive emails about Twinblueprint's products, events, and promotions. I can unsubscribe at any time.
               </Label>
             </div>
             <div className="flex gap-2 pt-2">
