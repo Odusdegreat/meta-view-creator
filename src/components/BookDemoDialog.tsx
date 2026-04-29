@@ -59,9 +59,9 @@ const BookDemoDialog = () => {
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent className="w-[95vw] max-w-md bg-background max-h-[85vh] overflow-hidden flex flex-col">
         <DialogHeader className="flex-shrink-0 space-y-1">
-          <DialogTitle className="text-xl font-bold">Request a demo</DialogTitle>
+          <DialogTitle className="text-xl font-bold">Start Generating Leads</DialogTitle>
           <DialogDescription className="text-sm text-muted-foreground">
-            Fill in your details and we'll get back to you within 24 hours.
+            Tell us about your project and our lead generation team will be in touch within 24 hours.
           </DialogDescription>
         </DialogHeader>
         <div className="flex-1 overflow-y-auto pr-1 hide-scrollbar">
