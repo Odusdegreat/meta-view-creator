@@ -117,14 +117,6 @@ const BookDemoDialog = () => {
                 Start Generating Leads
               </Button>
             </div>
-            <div className="flex gap-2 pt-2">
-              <Button type="button" className="flex-1 text-sm bg-muted text-foreground hover:bg-muted/80" onClick={() => setOpen(false)}>
-                Cancel
-              </Button>
-              <Button type="submit" className="flex-1 text-sm">
-                Request Demo
-              </Button>
-            </div>
           </form>
         </div>
       </DialogContent>
