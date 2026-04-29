@@ -41,7 +41,7 @@ const Navbar = () => {
             </Link>
           ))}
           <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6" onClick={() => openDemo(true)}>
-            Book a Demo
+            Start Generating Leads
           </Button>
         </div>
 
@@ -66,7 +66,7 @@ const Navbar = () => {
               </Link>
             ))}
             <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full w-fit px-6" onClick={() => openDemo(true)}>
-              Book a Demo
+              Start Generating Leads
             </Button>
           </div>
         </div>
