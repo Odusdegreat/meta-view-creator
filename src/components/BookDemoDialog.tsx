@@ -106,8 +106,16 @@ const BookDemoDialog = () => {
             <div className="flex items-start gap-2">
               <Checkbox id="consent" checked={form.consent} onCheckedChange={(v) => handleChange("consent", !!v)} className="mt-0.5" />
               <Label htmlFor="consent" className="text-xs text-muted-foreground leading-relaxed cursor-pointer">
-                I'd like to receive emails about Twinblueprint's products, events, and promotions. I can unsubscribe at any time.
+                I'd like to receive emails about Metadology's lead generation services, insights, and updates. I can unsubscribe at any time.
               </Label>
+            </div>
+            <div className="flex gap-2 pt-2">
+              <Button type="button" className="flex-1 text-sm bg-muted text-foreground hover:bg-muted/80" onClick={() => setOpen(false)}>
+                Cancel
+              </Button>
+              <Button type="submit" className="flex-1 text-sm">
+                Start Generating Leads
+              </Button>
             </div>
             <div className="flex gap-2 pt-2">
               <Button type="button" className="flex-1 text-sm bg-muted text-foreground hover:bg-muted/80" onClick={() => setOpen(false)}>
