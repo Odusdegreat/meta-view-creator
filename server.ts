@@ -56,9 +56,12 @@ async function createServer() {
     } catch (e: any) {
       if (!isProduction) {
         vite!.ssrFixStacktrace(e);
+        console.error(e.stack);
+        res.status(500).end(e.stack);
+      } else {
+        console.error(e.stack);
+        res.status(500).end("Internal Server Error");
       }
-      console.log(e.stack);
-      res.status(500).end(e.stack);
     }
   });
 
