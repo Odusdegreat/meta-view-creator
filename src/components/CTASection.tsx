@@ -22,7 +22,7 @@ const CTASection = () => {
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 text-base" onClick={() => setOpen(true)}>
-            Book a Demo <FaArrowRight className="ml-2 h-4 w-4" />
+            Start Generating Leads <FaArrowRight className="ml-2 h-4 w-4" />
           </Button>
           <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 text-base">
             View Our Work
