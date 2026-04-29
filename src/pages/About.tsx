@@ -210,7 +210,7 @@ const About = () => {
                 className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 text-base"
                 onClick={() => setOpen(true)}
               >
-                Start Generating Leads <FaArrowRight className="ml-2 h-4 w-4" />
+                Book a Demo <FaArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </motion.div>
           </div>

@@ -50,7 +50,7 @@ const BookDemoDialog = () => {
       toast({ title: "Please fill in required fields", variant: "destructive" });
       return;
     }
-    toast({ title: "Thanks! Let's generate some leads.", description: "Our team will reach out within 24 hours." });
+    toast({ title: "Demo request sent!", description: "We'll be in touch shortly." });
     setOpen(false);
     setForm({ firstName: "", lastName: "", email: "", phone: "", company: "", jobTitle: "", country: "", consent: false });
   };
@@ -59,9 +59,9 @@ const BookDemoDialog = () => {
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent className="w-[95vw] max-w-md bg-background max-h-[85vh] overflow-hidden flex flex-col">
         <DialogHeader className="flex-shrink-0 space-y-1">
-          <DialogTitle className="text-xl font-bold">Start Generating Leads</DialogTitle>
+          <DialogTitle className="text-xl font-bold">Request a demo</DialogTitle>
           <DialogDescription className="text-sm text-muted-foreground">
-            Tell us about your project and our lead generation team will be in touch within 24 hours.
+            Fill in your details and we'll get back to you within 24 hours.
           </DialogDescription>
         </DialogHeader>
         <div className="flex-1 overflow-y-auto pr-1 hide-scrollbar">
@@ -106,7 +106,7 @@ const BookDemoDialog = () => {
             <div className="flex items-start gap-2">
               <Checkbox id="consent" checked={form.consent} onCheckedChange={(v) => handleChange("consent", !!v)} className="mt-0.5" />
               <Label htmlFor="consent" className="text-xs text-muted-foreground leading-relaxed cursor-pointer">
-                I'd like to receive emails about Metadology's lead generation services, insights, and updates. I can unsubscribe at any time.
+                I'd like to receive emails about Twinblueprint's products, events, and promotions. I can unsubscribe at any time.
               </Label>
             </div>
             <div className="flex gap-2 pt-2">
@@ -114,7 +114,7 @@ const BookDemoDialog = () => {
                 Cancel
               </Button>
               <Button type="submit" className="flex-1 text-sm">
-                Start Generating Leads
+                Request Demo
               </Button>
             </div>
           </form>

@@ -37,7 +37,7 @@ const HeroSection = () => {
 
         <div className="mt-8 flex flex-wrap gap-4">
           <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 text-base" onClick={() => setOpen(true)}>
-            Start Generating Leads <FaArrowRight className="ml-2 h-4 w-4" />
+            Book a Demo <FaArrowRight className="ml-2 h-4 w-4" />
           </Button>
           <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 text-base" asChild>
             <a href="#case-studies">View Case Studies</a>
