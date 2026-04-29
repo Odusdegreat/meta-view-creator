@@ -50,7 +50,7 @@ const BookDemoDialog = () => {
       toast({ title: "Please fill in required fields", variant: "destructive" });
       return;
     }
-    toast({ title: "Demo request sent!", description: "We'll be in touch shortly." });
+    toast({ title: "Thanks! Let's generate some leads.", description: "Our team will reach out within 24 hours." });
     setOpen(false);
     setForm({ firstName: "", lastName: "", email: "", phone: "", company: "", jobTitle: "", country: "", consent: false });
   };
