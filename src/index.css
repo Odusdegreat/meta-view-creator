@@ -76,6 +76,23 @@
     background-image: var(--gradient-primary);
   }
 
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 2.4s ease-in-out infinite;
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 0 20px hsl(245 58% 51% / 0.35); }
+    50% { box-shadow: 0 0 40px hsl(245 58% 51% / 0.65); }
+  }
+
   .bg-hero {
     background: var(--gradient-hero);
   }
