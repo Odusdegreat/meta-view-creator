@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Send, CheckCircle } from "lucide-react";
+import { ArrowRight, CheckCircle } from "lucide-react";
 import {
   Dialog,
   DialogContent,
