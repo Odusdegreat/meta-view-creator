@@ -43,6 +43,7 @@
 
     --gradient-primary: linear-gradient(135deg, hsl(245 58% 51%), hsl(270 60% 55%));
     --gradient-hero: linear-gradient(135deg, hsl(235 30% 12%), hsl(250 35% 18%));
+    --shadow-glow: 0 0 30px hsl(245 58% 51% / 0.45);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -73,6 +74,23 @@
   .text-gradient {
     @apply bg-clip-text text-transparent;
     background-image: var(--gradient-primary);
+  }
+
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 2.4s ease-in-out infinite;
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 0 20px hsl(245 58% 51% / 0.35); }
+    50% { box-shadow: 0 0 40px hsl(245 58% 51% / 0.65); }
   }
 
   .bg-hero {
