@@ -66,7 +66,7 @@ const BookDemoDialog = () => {
           </div>
         ) : (
           <div className="flex-1 overflow-y-auto pr-1 hide-scrollbar">
-            <form onSubmit={handleSubmit} className="space-y-4 pr-2">
+            <form onSubmit={handleSubmit} className="space-y-5 pr-2">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="space-y-1.5">
                   <Label htmlFor="name" className="text-sm text-muted-foreground">Full Name</Label>
