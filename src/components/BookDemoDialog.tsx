@@ -111,9 +111,13 @@ const BookDemoDialog = () => {
                 </div>
               </div>
 
-              <Button type="submit" className="w-full py-6 text-base">
-                <Send className="w-4 h-4 mr-2" />
-                Request Demo & Lead Report
+              <Button
+                type="submit"
+                size="lg"
+                className="w-full gradient-primary text-primary-foreground shadow-glow hover:opacity-90 text-base px-8 py-6 animate-pulse-glow"
+              >
+                Start Generating Leads
+                <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
               <p className="text-xs text-center text-muted-foreground">
                 No credit card required. Get your personalized lead report in 24h.
