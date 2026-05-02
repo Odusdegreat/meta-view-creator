@@ -45,7 +45,7 @@ const caseStudiesData = {
     challenge: "A local authority couldn't align 12 stakeholder groups on a major infrastructure project. Each group had different concerns and priorities.",
     solution: "Interactive metaverse model with flythrough animations presented at council meetings. Different stakeholder versions highlighted relevant considerations for transport, environment, and community groups.",
     result: "Unanimous stakeholder approval achieved in a single session - a first for the authority.",
-    services: ["metaverse Modeling", "Interactive Presentations", "Stakeholder Tools", "VR Walkthroughs"],
+    services: ["Metaverse Modeling", "Interactive Presentations", "Stakeholder Tools", "VR Walkthroughs"],
     metrics: [
       { label: "Stakeholders", value: "12" },
       { label: "Approval Time", value: "1 session" },

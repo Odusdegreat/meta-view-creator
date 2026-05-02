@@ -58,7 +58,7 @@ const process = [
   },
   {
     step: 3,
-    title: "metaverse Modeling",
+    title: "Metaverse Modeling",
     description: "Create detailed metaverse models with photorealistic rendering and environmental integration.",
   },
   {
