@@ -13,7 +13,7 @@ import heroImage from "@/assets/case-studies-hero.jpg";
 
 const specialties = [
   { icon: Building2, title: "Mega Projects", description: "Large-scale, multi-phase developments where digital twins drive alignment, planning and stakeholder buy-in." },
-  { icon: Trophy, title: "Stadiums", description: "Immersive walkthroughs for sports and event venues — from fan experience to operational planning." },
+  { icon: Trophy, title: "Stadiums", description: "Immersive walkthroughs for sports and event venues - from fan experience to operational planning." },
   { icon: Train, title: "Transport Hubs", description: "Metro stations, terminals and interchanges visualised as living, data-rich digital twins." },
   { icon: Factory, title: "Industrial Parks", description: "Warehouse, logistics and tenant space planning with simulation-led optimisation." },
   { icon: TreePine, title: "Lifestyle Estates", description: "Golf, residential and resort estates brought to life for investors, buyers and overseas markets." },
