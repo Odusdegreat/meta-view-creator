@@ -9,8 +9,8 @@ import Footer from "@/components/Footer";
 const services = [
   {
     icon: FaCube,
-    title: "3D Visualization",
-    description: "Photorealistic 3D renders of your architectural projects, bringing designs to life before construction begins.",
+    title: "metaverse Visualization",
+    description: "Photorealistic metaverse renders of your architectural projects, bringing designs to life before construction begins.",
     features: ["High-fidelity renders", "Multiple viewing angles", "Environmental context"],
   },
   {
@@ -58,8 +58,8 @@ const process = [
   },
   {
     step: 3,
-    title: "3D Modeling",
-    description: "Create detailed 3D models with photorealistic rendering and environmental integration.",
+    title: "metaverse Modeling",
+    description: "Create detailed metaverse models with photorealistic rendering and environmental integration.",
   },
   {
     step: 4,
@@ -88,7 +88,7 @@ const Services = () => {
                 Our <span className="text-gradient">Services</span>
               </h1>
               <p className="text-hero-muted text-lg md:text-xl leading-relaxed">
-                Comprehensive 3D visualization and architectural communication solutions designed to accelerate your project approvals and stakeholder alignment.
+                Comprehensive metaverse visualization and architectural communication solutions designed to accelerate your project approvals and stakeholder alignment.
               </p>
             </motion.div>
           </div>
@@ -154,7 +154,7 @@ const Services = () => {
             >
               <h2 className="text-3xl md:text-4xl text-foreground mb-4">Our Process</h2>
               <p className="text-muted-foreground text-lg">
-                A streamlined approach to delivering exceptional 3D visualizations
+                A streamlined approach to delivering exceptional metaverse visualizations
               </p>
             </motion.div>
 
@@ -208,7 +208,7 @@ const Services = () => {
                 className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 text-base"
                 onClick={() => setOpen(true)}
               >
-                Book a Consultation <ArrowRight className="ml-2 h-4 w-4" />
+                Book a Demo <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </motion.div>
           </div>
