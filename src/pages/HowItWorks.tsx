@@ -61,7 +61,7 @@ const benefits = [
   "Reduce approval times by up to 40%",
   "Increase investor engagement by 3x",
   "Sell off-plan properties 60% faster",
-  "Reduce physical样板房 costs by 90%",
+  "Reduce physical costs by 8-11%",
   "Win more planning applications",
   "Impress stakeholders with stunning visuals",
 ];
