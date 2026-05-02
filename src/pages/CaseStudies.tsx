@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Building2, Trophy, Train, Factory, TreePine, Landmark } from "lucide-react";
+import { ArrowRight, Building2, Trophy, Train, Factory, TreePine, Landmark, ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -269,6 +269,15 @@ const CaseStudies = () => {
                   </dl>
 
                   <p className="text-sm text-muted-foreground leading-relaxed">{story.description}</p>
+
+                  <a
+                    href="https://meta-dology.com/portfolio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-primary hover:gap-3 transition-all"
+                  >
+                    View on portfolio <ExternalLink className="h-3.5 w-3.5" />
+                  </a>
                 </motion.article>
               ))}
             </div>
