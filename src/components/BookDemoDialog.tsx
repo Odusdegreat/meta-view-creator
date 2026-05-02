@@ -64,42 +64,42 @@ const BookDemoDialog = () => {
           </div>
         ) : (
           <div className="flex-1 overflow-y-auto pr-1 hide-scrollbar">
-            <form onSubmit={handleSubmit} className="space-y-5 pr-2">
+            <form onSubmit={handleSubmit} className="space-y-5 pr-2 text-left">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="space-y-1.5">
-                  <Label htmlFor="name" className="text-sm text-muted-foreground">Full Name</Label>
-                  <Input id="name" required placeholder="John Smith" value={form.name} onChange={(e) => handleChange("name", e.target.value)} />
+                <div className="space-y-1.5 text-left">
+                  <Label htmlFor="name" className="block text-sm text-muted-foreground text-left px-1">Full Name</Label>
+                  <Input id="name" required placeholder="John Smith" value={form.name} onChange={(e) => handleChange("name", e.target.value)} className="border border-input text-left" />
                 </div>
-                <div className="space-y-1.5">
-                  <Label htmlFor="email" className="text-sm text-muted-foreground">Work Email</Label>
-                  <Input id="email" type="email" required placeholder="john@company.com" value={form.email} onChange={(e) => handleChange("email", e.target.value)} />
+                <div className="space-y-1.5 text-left">
+                  <Label htmlFor="email" className="block text-sm text-muted-foreground text-left px-1">Work Email</Label>
+                  <Input id="email" type="email" required placeholder="john@company.com" value={form.email} onChange={(e) => handleChange("email", e.target.value)} className="border border-input text-left" />
                 </div>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="space-y-1.5">
-                  <Label htmlFor="company" className="text-sm text-muted-foreground">Company</Label>
-                  <Input id="company" required placeholder="Acme Construction" value={form.company} onChange={(e) => handleChange("company", e.target.value)} />
+                <div className="space-y-1.5 text-left">
+                  <Label htmlFor="company" className="block text-sm text-muted-foreground text-left px-1">Company</Label>
+                  <Input id="company" required placeholder="Acme Construction" value={form.company} onChange={(e) => handleChange("company", e.target.value)} className="border border-input text-left" />
                 </div>
-                <div className="space-y-1.5">
-                  <Label htmlFor="role" className="text-sm text-muted-foreground">Job Title</Label>
-                  <Input id="role" placeholder="VP of Operations" value={form.role} onChange={(e) => handleChange("role", e.target.value)} />
+                <div className="space-y-1.5 text-left">
+                  <Label htmlFor="role" className="block text-sm text-muted-foreground text-left px-1">Job Title</Label>
+                  <Input id="role" placeholder="VP of Operations" value={form.role} onChange={(e) => handleChange("role", e.target.value)} className="border border-input text-left" />
                 </div>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="space-y-1.5">
-                  <Label htmlFor="phone" className="text-sm text-muted-foreground">Phone</Label>
-                  <Input id="phone" type="tel" placeholder="+1 (555) 000-0000" value={form.phone} onChange={(e) => handleChange("phone", e.target.value)} />
+                <div className="space-y-1.5 text-left">
+                  <Label htmlFor="phone" className="block text-sm text-muted-foreground text-left px-1">Phone</Label>
+                  <Input id="phone" type="tel" placeholder="+1 (555) 000-0000" value={form.phone} onChange={(e) => handleChange("phone", e.target.value)} className="border border-input text-left" />
                 </div>
-                <div className="space-y-1.5">
-                  <Label htmlFor="category" className="text-sm text-muted-foreground">Industry</Label>
+                <div className="space-y-1.5 text-left">
+                  <Label htmlFor="category" className="block text-sm text-muted-foreground text-left px-1">Industry</Label>
                   <select
                     id="category"
                     required
                     value={form.category}
                     onChange={(e) => handleChange("category", e.target.value)}
-                    className="w-full h-10 rounded-md border border-input bg-background px-3 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 ring-offset-background"
+                    className="w-full h-10 rounded-md border border-input bg-background px-3 text-sm text-foreground text-left focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 ring-offset-background"
                   >
                     <option value="">Select industry</option>
                     {categories.map((c) => (
