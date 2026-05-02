@@ -9,12 +9,12 @@ const teamMembers = [
   {
     name: "Sarah Chen",
     role: "Founder & CEO",
-    bio: "20+ years in architectural visualization and 3D technology. Former head of visualization at a major UK architecture firm.",
+    bio: "20+ years in architectural visualization and metaverse technology. Former head of visualization at a major UK architecture firm.",
   },
   {
     name: "James Murphy",
     role: "Chief Technology Officer",
-    bio: "Expert in photorealistic rendering and real-time 3D. Previously led visualization tech at a FTSE 100 company.",
+    bio: "Expert in photorealistic rendering and real-time metaverse. Previously led visualization tech at a FTSE 100 company.",
   },
   {
     name: "Emma Lewis",
@@ -23,8 +23,8 @@ const teamMembers = [
   },
   {
     name: "David Patel",
-    role: "Lead 3D Artist",
-    bio: "Award-winning 3D artist specializing in architectural visualization. Master's in Digital Architecture.",
+    role: "Lead metaverse Artist",
+    bio: "Award-winning metaverse artist specializing in architectural visualization. Master's in Digital Architecture.",
   },
 ];
 
@@ -32,7 +32,7 @@ const values = [
   {
     icon: FaLightbulb,
     title: "Innovation",
-    description: "We constantly push the boundaries of what's possible in 3D visualization technology and techniques.",
+    description: "We constantly push the boundaries of what's possible in metaverse visualization technology and techniques.",
   },
   {
     icon: FaTrophy,
@@ -71,7 +71,7 @@ const About = () => {
                 About <span className="text-gradient">Twinblueprint</span>
               </h1>
               <p className="text-hero-muted text-lg md:text-xl leading-relaxed">
-                Transforming how the world visualizes architectural projects through cutting-edge 3D technology and exceptional service.
+                Transforming how the world visualizes architectural projects through cutting-edge metaverse technology and exceptional service.
               </p>
             </motion.div>
           </div>
@@ -91,7 +91,7 @@ const About = () => {
                   Our Mission
                 </h2>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-                  To revolutionize the architectural industry by making photorealistic 3D visualization accessible and affordable for developers, architects, and urban planners worldwide.
+                  To revolutionize the architectural industry by making photorealistic metaverse visualization accessible and affordable for developers, architects, and urban planners worldwide.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed">
                   We believe that better visualization leads to better decision-making, faster approvals, and ultimately, better buildings and cities.
@@ -203,7 +203,7 @@ const About = () => {
                 Let's create something amazing together
               </h2>
               <p className="text-hero-muted text-lg mb-8 leading-relaxed">
-                Ready to transform your project with stunning 3D visualization?
+                Ready to transform your project with stunning metaverse visualization?
               </p>
               <Button
                 size="lg"

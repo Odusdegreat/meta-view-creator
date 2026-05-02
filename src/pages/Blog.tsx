@@ -15,8 +15,8 @@ import { FaBuilding, FaChartLine, FaComments, FaRobot, FaLeaf, FaVrCardboard } f
 const blogPosts = [
   {
     id: 1,
-    title: "How 3D Visualization is Transforming Planning Approvals",
-    excerpt: "Discover why planning authorities are embracing photorealistic 3D renders as the new standard for development applications.",
+    title: "How metaverse Visualization is Transforming Planning Approvals",
+    excerpt: "Discover why planning authorities are embracing photorealistic metaverse renders as the new standard for development applications.",
     category: "Industry Trends",
     author: "Sarah Mitchell",
     date: "March 15, 2026",
@@ -27,7 +27,7 @@ const blogPosts = [
   {
     id: 2,
     title: "The ROI of Early Visualization: A Developer's Guide",
-    excerpt: "Learn how investing in 3D visualization early in the project lifecycle can save months and millions in approval delays.",
+    excerpt: "Learn how investing in metaverse visualization early in the project lifecycle can save months and millions in approval delays.",
     category: "Business Strategy",
     author: "James Chen",
     date: "March 8, 2026",
@@ -38,7 +38,7 @@ const blogPosts = [
   {
     id: 3,
     title: "Stakeholder Communication: From Drawings to Digital Experiences",
-    excerpt: "Explore how interactive 3D models bridge the communication gap between architects, planners, and community stakeholders.",
+    excerpt: "Explore how interactive metaverse models bridge the communication gap between architects, planners, and community stakeholders.",
     category: "Communication",
     author: "Emma Rodriguez",
     date: "February 28, 2026",
@@ -49,7 +49,7 @@ const blogPosts = [
   {
     id: 4,
     title: "The Future of Architectural Visualization",
-    excerpt: "A deep dive into emerging technologies like AI-powered rendering and real-time collaboration in 3D visualization.",
+    excerpt: "A deep dive into emerging technologies like AI-powered rendering and real-time collaboration in metaverse visualization.",
     category: "Technology",
     author: "David Park",
     date: "February 20, 2026",
@@ -60,7 +60,7 @@ const blogPosts = [
   {
     id: 5,
     title: "Environmental Impact Visualization: Making Sustainability Visible",
-    excerpt: "How 3D visualization helps communicate environmental considerations and sustainability features to all stakeholders.",
+    excerpt: "How metaverse visualization helps communicate environmental considerations and sustainability features to all stakeholders.",
     category: "Sustainability",
     author: "Lisa Thompson",
     date: "February 12, 2026",
@@ -82,7 +82,7 @@ const blogPosts = [
   {
     id: 7,
     title: "Maximizing Marketing Impact with Hyper-Realistic Renders",
-    excerpt: "Learn how high-quality 3D renders can transform your property marketing and accelerate sales.",
+    excerpt: "Learn how high-quality metaverse renders can transform your property marketing and accelerate sales.",
     category: "Marketing",
     author: "Anna Wilson",
     date: "January 28, 2026",
@@ -153,7 +153,7 @@ const Blog = () => {
                 Our <span className="text-gradient">Blog</span>
               </h1>
               <p className="text-hero-muted text-lg md:text-xl leading-relaxed">
-                Insights, trends, and best practices in 3D architectural visualization and the future of development approvals.
+                Insights, trends, and best practices in metaverse architectural visualization and the future of development approvals.
               </p>
             </motion.div>
           </div>

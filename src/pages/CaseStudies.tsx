@@ -19,7 +19,7 @@ const caseStudies = [
     location: "London, UK",
     developer: "Thames Development Co.",
     challenge: "A developer struggled with multiple planning rejections for a 200-unit residential project. The local planning authority had concerns about the visual impact and integration with the surrounding Victorian buildings.",
-    solution: "We created photorealistic 3D walkthroughs showing the development in context with its surroundings. The visualization included seasonal variations and different times of day to demonstrate how the building would integrate with the neighborhood.",
+    solution: "We created photorealistic metaverse walkthroughs showing the development in context with its surroundings. The visualization included seasonal variations and different times of day to demonstrate how the building would integrate with the neighborhood.",
     result: "Planning approval granted on first resubmission, saving 6 months and £120K in delays.",
     metrics: [
       { label: "Time Saved", value: "6 months" },
@@ -35,7 +35,7 @@ const caseStudies = [
     location: "Manchester, UK",
     developer: "UK Infrastructure Partners",
     challenge: "A local authority couldn't align 12 stakeholder groups on a major infrastructure project. Each group had different concerns and priorities.",
-    solution: "Interactive 3D model with flythrough animations presented at council meetings. Different stakeholder versions highlighted relevant considerations for transport, environment, and community groups.",
+    solution: "Interactive metaverse model with flythrough animations presented at council meetings. Different stakeholder versions highlighted relevant considerations for transport, environment, and community groups.",
     result: "Unanimous stakeholder approval achieved in a single session - a first for the authority.",
     metrics: [
       { label: "Stakeholders", value: "12" },
@@ -65,7 +65,7 @@ const CaseStudies = () => {
                 Case <span className="text-gradient">Studies</span>
               </h1>
               <p className="text-hero-muted text-lg md:text-xl leading-relaxed">
-                Real projects, real results. See how our 3D visualizations have transformed approval timelines and stakeholder communication across the UK.
+                Real projects, real results. See how our metaverse visualizations have transformed approval timelines and stakeholder communication across the UK.
               </p>
             </motion.div>
           </div>
@@ -182,14 +182,14 @@ const CaseStudies = () => {
                 Ready to be a case study?
               </h2>
               <p className="text-hero-muted text-lg mb-8 leading-relaxed">
-                Let's discuss how our 3D visualization services can accelerate your next project.
+                Let's discuss how our metaverse visualization services can accelerate your next project.
               </p>
               <Button
                 size="lg"
                 className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 text-base"
                 onClick={() => setOpen(true)}
               >
-                Book a Consultation <ArrowRight className="ml-2 h-4 w-4" />
+                Book a Demo <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </motion.div>
           </div>
