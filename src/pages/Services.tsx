@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 const services = [
   {
     icon: FaCube,
-    title: "metaverse Visualization",
+    title: "Metaverse Visualization",
     description: "Photorealistic metaverse renders of your architectural projects, bringing designs to life before construction begins.",
     features: ["High-fidelity renders", "Multiple viewing angles", "Environmental context"],
   },
