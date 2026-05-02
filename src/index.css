@@ -89,8 +89,8 @@
   }
 
   @keyframes pulse-glow {
-    0%, 100% { box-shadow: 0 0 20px hsl(245 58% 51% / 0.35); }
-    50% { box-shadow: 0 0 40px hsl(245 58% 51% / 0.65); }
+    0%, 100% { box-shadow: 0 0 20px hsl(200 90% 50% / 0.35); }
+    50% { box-shadow: 0 0 40px hsl(200 90% 50% / 0.65); }
   }
 
   .bg-hero {
