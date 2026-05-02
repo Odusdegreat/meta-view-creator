@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Building2, Trophy, Train, Factory, TreePine, Landmark, ExternalLink } from "lucide-react";
+import { ArrowRight, Building2, Trophy, Train, Factory, TreePine, Landmark } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
