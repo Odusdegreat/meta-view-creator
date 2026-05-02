@@ -232,7 +232,7 @@ const Blog = () => {
                         className="flex-1 border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground"
                         onClick={() => setOpen(true)}
                       >
-                        Request a Demo
+                        Book a Demo
                       </Button>
                     </div>
                   </div>
