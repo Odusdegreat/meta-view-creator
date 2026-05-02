@@ -15,7 +15,7 @@ import { FaBuilding, FaChartLine, FaComments, FaRobot, FaLeaf, FaVrCardboard } f
 const blogPosts = [
   {
     id: 1,
-    title: "How metaverse Visualization is Transforming Planning Approvals",
+    title: "How Metaverse Visualization is Transforming Planning Approvals",
     excerpt: "Discover why planning authorities are embracing photorealistic metaverse renders as the new standard for development applications.",
     category: "Industry Trends",
     author: "Sarah Mitchell",

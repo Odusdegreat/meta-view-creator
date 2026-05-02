@@ -24,7 +24,7 @@ const caseStudiesData = {
     challenge: "A developer struggled with multiple planning rejections for a 200-unit residential project. The local planning authority had concerns about the visual impact and integration with the surrounding Victorian buildings.",
     solution: "We created photorealistic metaverse walkthroughs showing the development in context with its surroundings. The visualization included seasonal variations and different times of day to demonstrate how the building would integrate with the neighborhood.",
     result: "Planning approval granted on first resubmission, saving 6 months and £120K in delays.",
-    services: ["metaverse Visualization", "Interactive Walkthroughs", "Contextual Renders", "VR Experience"],
+    services: ["Metaverse Visualization", "Interactive Walkthroughs", "Contextual Renders", "VR Experience"],
     metrics: [
       { label: "Time Saved", value: "6 months" },
       { label: "Cost Saved", value: "£120K" },
