@@ -48,11 +48,9 @@ const BookDemoDialog = () => {
   return (
     <Dialog open={open} onOpenChange={handleOpenChange}>
       <DialogContent className="w-[95vw] max-w-xl bg-background max-h-[90vh] overflow-hidden flex flex-col p-8">
-        <DialogHeader className="flex-shrink-0 space-y-1">
-          <DialogTitle className="text-xl font-bold">Request a demo</DialogTitle>
-          <DialogDescription className="text-sm text-muted-foreground">
-            Join 500+ construction firms using Meta-dology 3D to win more contracts.
-          </DialogDescription>
+        <DialogHeader className="sr-only">
+          <DialogTitle>Book a Demo</DialogTitle>
+          <DialogDescription>Book a demo with our team.</DialogDescription>
         </DialogHeader>
 
         {submitted ? (
@@ -60,7 +58,7 @@ const BookDemoDialog = () => {
             <CheckCircle className="w-14 h-14 text-primary mb-4" />
             <h3 className="text-2xl font-bold text-foreground mb-2">You're In!</h3>
             <p className="text-muted-foreground max-w-sm">
-              Our team will reach out within 24 hours with a tailored 3D lead strategy for your business.
+              Our team will reach out within 24 hours with a tailored metaverse lead strategy for your business.
             </p>
             <Button className="mt-6" onClick={() => handleOpenChange(false)}>Close</Button>
           </div>
@@ -116,7 +114,7 @@ const BookDemoDialog = () => {
                 size="lg"
                 className="w-full gradient-primary text-primary-foreground shadow-glow hover:opacity-90 text-base px-8 py-6 animate-pulse-glow"
               >
-                Start Generating Leads
+                Book a Demo
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
               <p className="text-xs text-center text-muted-foreground">
